@@ -16,7 +16,7 @@ public class ChatViewer
 	public String collectResponse(String question)
 	{
 		String response = "";
-		response = JOptionPane.showInputDialog(null, question);
+		response = JOptionPane.showInputDialog(null, question, windowMessage, JOptionPane.INFORMATION_MESSAGE, chatIcon, null, "Type here please").toString();
 		
 		return response;
 	}
