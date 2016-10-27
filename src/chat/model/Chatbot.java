@@ -87,7 +87,12 @@ public class Chatbot
 	 */
 	public boolean memeChecker(String currentInput)
 	{
-		return false;
+		boolean hasinput = false;
+		if (currentInput.contains(""))
+		{
+			return hasinput = true;
+		}
+		return hasinput;
 	}
 	
 	/**
@@ -114,6 +119,23 @@ public class Chatbot
 	 */
 	public ArrayList<String> getMemesList()
 	{
+		memesList.add("doge");
+		memesList.add("cute animals");
+		memesList.add("grumpy cat");
+		memesList.add("dat boi");
+		memesList.add("willy wonka");
+		memesList.add("harambe");
+		memesList.add("john cena");
+		memesList.add("pepe");
+		memesList.add("pupper");
+		memesList.add("doot doot");
+		memesList.add("bad luck brian");
+		memesList.add("one does not simply");
+		memesList.add("futurama fry");
+		memesList.add("y u no");
+		memesList.add("science man");
+		memesList.add("not bad obama");
+		memesList.add("pepe boi");
 		return memesList;
 	}
 	
