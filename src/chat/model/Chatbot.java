@@ -60,7 +60,12 @@ public class Chatbot
 	 */
 	public boolean contentChecker(String currentInput)
 	{
-		return false;
+		boolean containsinput = false;
+		if (currentInput.contains("feet"))
+		{
+			return containsinput = true;
+		}
+		return containsinput;
 	}
 	
 	/**

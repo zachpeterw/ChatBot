@@ -47,6 +47,10 @@ public class ChatController
 		{
 			answer += "Oh, I guess I can talk about " + input;
 		}
+		if(stupidBot.contentChecker(input))
+		{
+			answer += " My fetish!! I love " + input;
+		}
 		
 		return answer;
 	}
