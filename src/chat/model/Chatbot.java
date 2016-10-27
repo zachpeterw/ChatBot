@@ -88,11 +88,10 @@ public class Chatbot
 	public boolean memeChecker(String currentInput)
 	{
 		boolean hasinput = false;
-		if (currentInput.contains(""))
+		if (currentInput != null && memesList.contains(currentInput)){hasinput = true;}
 		{
 			return hasinput = true;
 		}
-		return hasinput;
 	}
 	
 	/**
