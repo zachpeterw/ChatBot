@@ -37,7 +37,7 @@ public class ChatController
 		}
 		if(stupidBot.memeChecker(input))
 		{
-			answer += "\nI can has memes?\n";
+			answer += "\nI LOVE MEMES! please list another\n";
 		}
 		if(answer.length() == 0)
 		{
