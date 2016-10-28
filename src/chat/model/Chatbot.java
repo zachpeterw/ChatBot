@@ -61,6 +61,8 @@ public class Chatbot
 	public boolean contentChecker(String currentInput)
 	{
 		boolean containsinput = false;
+		String temp = "Y";
+		System.out.println(temp.toLowerCase());
 		if (currentInput.contains("feet"))
 		{
 			return containsinput = true;
@@ -88,10 +90,12 @@ public class Chatbot
 	public boolean memeChecker(String currentInput)
 	{
 		boolean hasinput = false;
-		if (currentInput != null && memesList.contains(currentInput)){hasinput = true;}
+		for (String currentMeme : memesList)
+		if (currentInput.contains(currentMeme))
 		{
 			return hasinput = true;
 		}
+		return hasinput;
 	}
 	
 	/**
