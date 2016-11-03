@@ -148,6 +148,25 @@ public class Chatbot
 	 */
 	public ArrayList<String> getPoliticalTopicList()
 	{
+		politicalTopicList.add("election");
+		politicalTopicList.add("Democrat");
+		politicalTopicList.add("Republican");
+		politicalTopicList.add("liberal");
+		politicalTopicList.add("conservative");
+		politicalTopicList.add("Clinton");
+		politicalTopicList.add("Trump");
+		politicalTopicList.add("Kaine");
+		politicalTopicList.add("Pence");
+		politicalTopicList.add("11/8/2016");
+		politicalTopicList.add("Stein");
+		politicalTopicList.add("Johnson");
+		politicalTopicList.add("aleppo");
+		politicalTopicList.add("Ivanka");
+		politicalTopicList.add("Obama");
+		politicalTopicList.add("Racism");
+		politicalTopicList.add("Deportation");
+		politicalTopicList.add("wall");
+		
 		return politicalTopicList;
 	}
 	
