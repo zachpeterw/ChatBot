@@ -78,7 +78,13 @@ public class Chatbot
 	 */
 	public boolean politicalTopicChecker(String currentInput)
 	{
-		return false;
+		boolean hastopic = false;
+		for (String currenttopic : politicalTopicList)
+		if (currentInput.contains(currenttopic))
+		{
+			return hastopic = true;
+		}
+		return hastopic;
 	}
 	
 	
